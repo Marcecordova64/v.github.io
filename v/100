@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+        <meta name="title" content="videy">
+    <meta name="description" content="Fast &amp; Free Video Hosting Service">
+    <meta name="keywords" content="video,upload,anonymous,free,videoupload">
+    <link rel="icon" href="https://videy.mx/application/uploads/img/favicon.png">
+    <title>videy</title>
+    <link rel="stylesheet" href="https://videy.mx/public/css/fonts.min.css">
+    <link rel="stylesheet" href="https://videy.mx/public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://videy.mx/public/css/dropzone.min.css">
+    <link rel="stylesheet" href="https://videy.mx/application/views/themes/neo_black/assets/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap">
+            <link rel="stylesheet" href="https://videy.mx/public/css/magnific.popup.css">
+    	<script>"use strict";
+		const base_url                  = "https://videy.mx/";
+		const page                      = "page";
+        const upload                    = "upload";
+        const lang_file_not_allowed     = "File Type not Allowed.";
+                
+        const fileSize                  = "30";
+        const chunkSize                 = "3121152";
+        const mime_types                = "mp4,avi,flv";
+        const mime_typ                  = "video/mp4,video/avi,video/flv";
+        	</script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+ <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-64SZXCQJG9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-64SZXCQJG9');
+</script></head>
+<body><!-- Docs styles -->
+<link rel="stylesheet" href="https://videy.mx/application/views/themes/neo_black/assets/player/demo.css">
+    <div class="singleImageMain">
+			<div class="container">
+								<div class="row">
+					<div class="col-lg-9">
+						<div class="imageViewer">
+							<video id="player" controls></video>
+						</div>
+					</div>
+					
+						<div class="exploreTabsArea clearfix">
+														<h4>
+									
+			                       
+								</div>
+															</div>
+							<!-- /single-img-share-area -->
+						
+						</div>
+					</div>
+				</div>
+							</div>
+        </div><!-- /singleImageMain -->
+
+    
+</div>
+<!-- Plyr core script -->
+<script src="https://videy.mx/application/views/themes/neo_black/assets/player/plyr.js" crossorigin="anonymous"></script>
+	
+<script type="text/javascript">
+	const player = new Plyr('#player');
+	player.source = {
+		debug: true,
+		type: 'video',
+		title: 'View From A BLACK Moon',
+		keyboard: {
+			global: true
+		},
+		tooltips: {
+			controls: true
+		},
+		captions: {
+			active: true
+		},
+		sources: [{
+			src: 'https://videy.mx/v/c6d7qrol3390.mp4',
+			type: 'video/mp4'
+		}]
+	};
+</script>
+<script data-cfasync="false" type="text/javascript" src="//diagramjawlineunhappy.com/t/9/fret/meow4/2051133/5fb6793c.js"></script>
+    <script type="text/javascript" src="https://videy.mx/public/js/jquery.min.js"></script>
+    <script type="text/javascript" src="https://videy.mx/public/js/popper.min.js"></script>
+    <script type="text/javascript" src="https://videy.mx/public/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://videy.mx/public/js/dropzone.min.js"></script>
+            <script type="text/javascript" src="https://videy.mx/public/js/magnific.popup.min.js"></script>
+            <script type="text/javascript" src="https://videy.mx/public/js/includes/view_video.js"></script>
+    </body>
+</html>
